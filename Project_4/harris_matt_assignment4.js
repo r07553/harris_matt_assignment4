@@ -55,6 +55,19 @@ var websiteUrl= function(website) {
 var thisSite = websiteURL ("https://www.fullsail.edu")
 console.log(thisSite);
 
+// Problem 4 Upper Case String
+
+var makeUpper = function(name) {
+    String.prototype.toUpper = function() {
+        return this.replace(/\w\S*/g, function (txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        });
+    }
+    name.toUpper();
+    console.log(name.toUpper());
+};
+
+makeUpper("matt harris");
 
 
 
