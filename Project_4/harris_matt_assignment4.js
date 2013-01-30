@@ -23,3 +23,18 @@ var phoneNumber = function (number) {
 
 var thisNumber = phoneNumber("231-912-0745");
 console.log(thisNumber);
+
+// Problem 2 Email String
+
+var emailAddress = function (email) {
+    var myEmail = email
+    var addressStyle = (/^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,4}$/);
+    if (addressStyle.test(myEmail)) {
+      return true;
+    } else {
+      return false;
+    }
+};
+
+var thisEmail = emailAddress("mattharris@fullsail.edu");
+console.log(thisEmail);
