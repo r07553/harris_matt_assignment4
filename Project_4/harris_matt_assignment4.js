@@ -81,6 +81,17 @@ var numberFormat = function(number) {
 
 numberFormat(72341.279933);
 
+// Number Problem 3 Date Difference 
+
+var dateSince = function(date) {
+    var newYearsDay = date;
+    today = new Date(2012, 12, 31);
+    var days = 1000*60*60 * 24
+    console.log(Math.ceil((today.getTime() - newYearsDay.getTime()) / (days))
+    + " days since New Year! " + date)
+};
+
+dateSince(new Date(2012, 12, 01));
 
 
 
