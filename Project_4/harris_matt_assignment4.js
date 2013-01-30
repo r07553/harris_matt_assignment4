@@ -69,6 +69,17 @@ var makeUpper = function(name) {
 
 makeUpper("matt harris");
 
+// Number Problems
+
+// Problem 1 Format Number
+
+var numberFormat = function(number) {
+    var myNumber = number
+    myNumber.toFixed(3)
+    return console.log(myNumber.toFixed(3))
+};
+
+numberFormat(72341.279933);
 
 
 
