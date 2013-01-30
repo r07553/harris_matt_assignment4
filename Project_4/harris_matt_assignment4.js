@@ -6,7 +6,13 @@
 // Project 4 
 // Code Library
 
+// Start
+
+
+
+
 // String Functions
+
 
 //Problem 1 Phone Number String
 
@@ -24,6 +30,8 @@ var phoneNumber = function (number) {
 var thisNumber = phoneNumber("231-912-0745");
 console.log(thisNumber);
 
+
+
 // Problem 2 Email String
 
 var emailAddress = function (email) {
@@ -38,6 +46,8 @@ var emailAddress = function (email) {
 
 var thisEmail = emailAddress("mattharris@fullsail.edu");
 console.log(thisEmail);
+
+
 
 // Problem 3 URL String
 
@@ -55,6 +65,8 @@ var websiteUrl= function(website) {
 var thisSite = websiteURL ("https://www.fullsail.edu")
 console.log(thisSite);
 
+
+
 // Problem 4 Upper Case String
 
 var makeUpper = function(name) {
@@ -69,7 +81,11 @@ var makeUpper = function(name) {
 
 makeUpper("matt harris");
 
+
+
+
 // Number Problems
+
 
 // Problem 1 Format Number
 
@@ -80,6 +96,8 @@ var numberFormat = function(number) {
 };
 
 numberFormat(72341.279933);
+
+
 
 // Number Problem 3 Date Difference 
 
@@ -94,11 +112,7 @@ var dateSince = function(date) {
 dateSince(new Date(2012, 12, 01));
 
 
-
-
-
-
-
+// Finish
 
 
 
