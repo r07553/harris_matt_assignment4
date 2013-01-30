@@ -38,3 +38,34 @@ var emailAddress = function (email) {
 
 var thisEmail = emailAddress("mattharris@fullsail.edu");
 console.log(thisEmail);
+
+// Problem 3 URL String
+
+var websiteUrl= function(website) {
+    var mySite = website
+    var siteSyle = /^(http[s]?:\/\/){0,1}(www\.){0,1}[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,5}[\.]{0,1}/;
+    
+    if (mySite.charAt(4) == "s") {
+        return true;
+    } else if (mySite.charAt(4) == ":") {
+        return false;
+    }
+};
+
+var thisSite = websiteURL ("https://www.fullsail.edu")
+console.log(thisSite);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
