@@ -62,7 +62,7 @@ var websiteUrl= function(website) {
     }
 };
 
-var thisSite = websiteURL ("https://www.fullsail.edu")
+var thisSite = websiteUrl("https://www.fullsail.edu")
 console.log(thisSite);
 
 
