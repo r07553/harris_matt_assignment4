@@ -71,7 +71,7 @@ console.log(thisSite);
 var makeUpper = function(name) {
     String.prototype.toUpper = function() {
         return this.replace(/\w\S*/g, function (txt) {
-            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     }
     name.toUpper();
@@ -104,8 +104,9 @@ var dateSince = function(date) {
     var newYearsDay = date;
     today = new Date(2012, 12, 31);
     var days = 1000*60*60 * 24
-    console.log(Math.ceil((today.getTime() - newYearsDay.getTime()) / (days))
+    console.log(Math.ceil((today.getTime() - newYearsDay.getTime()) / (days)) 
     + " days since New Year! " + date)
+    
 };
 
 dateSince(new Date(2012, 12, 01));
